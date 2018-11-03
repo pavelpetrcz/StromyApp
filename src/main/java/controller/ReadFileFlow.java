@@ -1,6 +1,6 @@
 package controller;
 
-public class AnalyzeFileFlow {
+public class ReadFileFlow {
     public void starReadFile() {
         try {
             readFile();

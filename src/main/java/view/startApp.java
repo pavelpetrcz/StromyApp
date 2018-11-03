@@ -1,6 +1,6 @@
 package view;
 
-import controller.AnalyzeFileFlow;
+import controller.ReadFileFlow;
 import controller.CheckInputsFlow;
 
 import java.util.Scanner;
@@ -34,8 +34,11 @@ public class startApp {
         }
         else System.out.println(chyba);
 
-        AnalyzeFileFlow analyzefile = new AnalyzeFileFlow();
-        analyzefile.starReadFile();
+        //čtení souboru
+        ReadFileFlow document = new ReadFileFlow();
+        document.starReadFile();
+
+
 
     }
 }

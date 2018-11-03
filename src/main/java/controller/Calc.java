@@ -2,7 +2,6 @@ package controller;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Stack;
 
 public class Calc implements ICalc {
 
@@ -18,10 +17,10 @@ public class Calc implements ICalc {
 
     }
 
-    public boolean checkInput(String pokynek) {
+    public boolean checkInput(String input) {
         boolean a = false;
         try {
-            String s = pokynek.trim().toLowerCase();
+            String s = input.trim().toLowerCase();
             if (s.equals("analyzuj")) {
                 a = true;
             }
@@ -50,10 +49,18 @@ public class Calc implements ICalc {
             FileReader doc = new FileReader("C:/Users/Pavel/Desktop/strom.txt");
             Object in = null;
             BufferedReader br = new BufferedReader(doc);
-            String neco = br.readLine();
+            String readLine = "";
+            ArrayList<E> nodesAndEdges = new ArrayList<Object>();
 
-            //System.out.println(neco);
-        } catch (Exception e) {
+            while ((readLine = br.readLine()) != null) {
+                //System.out.println(readLine);
+                nodesAndEdges.add(String readLine);
+            }
+            nodesAndEdges.stream()
+                    .filter(s -> s.);
+
+        }
+        catch (Exception e) {
             System.out.println("Chyba. Nelze analyzovat soubor.");
         }
 

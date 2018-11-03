@@ -13,16 +13,16 @@ public class CheckInputsFlow {
         this.input = input;
     }
 
-    public boolean getCheckInputs(String vstup) throws Exception {
-        return checkInputs(vstup);
+    public boolean getCheckInputs(String input) throws Exception {
+        return checkInputs(input);
     }
 
     /*Methods*/
-    protected boolean checkInputs(String pokyn) throws Exception {
-        boolean vysledek = false;
+    protected boolean checkInputs(String input) throws Exception {
+        boolean result = false;
         Calc start = new Calc();
-        vysledek = start.checkInput(pokyn) && start.checkInputFileExists();
-        return vysledek;
+        result = start.checkInput(input) && start.checkInputFileExists();
+        return result;
     }
 
 
