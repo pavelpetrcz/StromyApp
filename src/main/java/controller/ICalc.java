@@ -5,22 +5,22 @@ public interface ICalc {
     /*
     Vytvoří instance listů
      */
-    public void createLeaf();
+    public void createLeaf(String input);
 
     /*
     Vytvoří instance ořechů
      */
-    public void createNugget();
+    public void createNut(String input);
 
     /*
     Vytvoří instanci větví
      */
-    public void createBranch();
+    public void createBranch(String input);
 
     /*
     Zkontroluje pokyn
      */
-    public boolean checkInput(String pokynek) throws Exception;
+    public boolean checkInput(String input) throws Exception;
 
     /*
     Zkontroluje jestli existuje soubor na ploše, který očekáváme a máme zpracovat
