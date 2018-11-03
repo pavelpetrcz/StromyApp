@@ -50,14 +50,15 @@ public class Calc implements ICalc {
             Object in = null;
             BufferedReader br = new BufferedReader(doc);
             String readLine = "";
-            ArrayList<E> nodesAndEdges = new ArrayList<Object>();
+            ArrayList<String> nodesAndEdges = new ArrayList<>();
 
             while ((readLine = br.readLine()) != null) {
                 //System.out.println(readLine);
-                nodesAndEdges.add(String readLine);
+                nodesAndEdges.add(readLine);
             }
             nodesAndEdges.stream()
-                    .filter(s -> s.);
+                .filter(element -> element.matches("x;"));
+                
 
         }
         catch (Exception e) {

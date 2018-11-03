@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8659b13a-8628-4fae-bec1-a70d6294d272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Tests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AnalyzeFileFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ReadFileFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Calc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/startApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/startApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/Calc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Calc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/CheckInputsFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/CheckInputsFlow.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,24 +20,24 @@
     <session id="1924606256">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
-          <entry key="project.open.time.0" value="17" />
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="18" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="52" />
-          <entry key="java" value="4948" />
+          <entry key="java" value="5010" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4948" />
+          <entry key="JAVA" value="5010" />
           <entry key="PLAIN_TEXT" value="52" />
           <entry key="XML" value="3" />
         </counts>
@@ -85,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/Calc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+            <state relative-caret-position="281">
+              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,8 +187,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="994" />
-    <option name="height" value="538" />
+    <option name="width" value="995" />
+    <option name="height" value="539" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -382,8 +374,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984472" visible="true" weight="0.23716216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984472" visible="true" weight="0.24121621" />
       <window_info id="Structure" order="1" sideWeight="0.5015528" side_tool="true" weight="0.18606225" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -534,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/Calc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        <state relative-caret-position="281">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
