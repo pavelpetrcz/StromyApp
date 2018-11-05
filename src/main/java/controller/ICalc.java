@@ -1,5 +1,7 @@
 package controller;
 
+import model.Branch;
+
 public interface ICalc {
 
     /*
@@ -15,7 +17,7 @@ public interface ICalc {
     /*
     Vytvoří instanci větví
      */
-    public void createBranch(String input);
+    public Branch createBranch(String input);
 
     /*
     Zkontroluje pokyn
@@ -31,4 +33,10 @@ public interface ICalc {
     Přečte soubor a vytvoří instance příslušných tříd
     */
     public void readFile() throws Exception;
+
+    /*
+    Vytvori vazbu mezi objekt
+     */
+    public void createEdge();
+
 }

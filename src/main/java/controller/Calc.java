@@ -25,10 +25,19 @@ public class Calc implements ICalc {
         nut.setState(parts[2].charAt(0));
     }
 
-    public void createBranch(String input) {
-        String[] parts = input.split(";");
-        Branch branch = new Branch();
-        branch.setId(Integer.parseInt(parts[0]));
+    public Branch createBranch(String input) {
+        String[] parts = input.split(";"); //vstup rozdelime
+        Branch branch = new Branch(); //vytvorim vetev
+        branch.setId(Integer.parseInt(parts[0])); //urcim ID
+
+        //ulozim id ostatnich nodu
+        ArrayList<Integer> restOfParts = new ArrayList<>();
+            for (int i = 1; i <= parts.length; i++) {
+                restOfParts.add(Integer.parseInt(parts[i]));
+            }
+        branch.setLinks(restOfParts);
+            
+        return branch;
     }
 
     public boolean checkInput(String input) {
@@ -75,22 +84,21 @@ public class Calc implements ICalc {
             }
             //streamy na filtrovani podle typu uzlu a vytvoreni uzlu
             nodes.stream()
-                .filter(element -> element.matches("\\w;[V]."))
-                .forEach(t -> createBranch(t));
-
-            nodes.stream()
-                .filter(element -> element.matches("\\w;[L]."))
-                .forEach(s -> createLeaf(s));
-
+                    .filter(element -> element.matches("\\w;[L]."))
+                    .forEach(s -> createLeaf(s));
             nodes.stream()
                     .filter(element -> element.matches("\\w;[O]."))
                     .forEach(a -> createNut(a));
-        }
+            nodes.stream()
+                .filter(element -> element.matches("\\w;[V]."))
+                .forEach(t -> createBranch(t));
+            }
         catch (Exception e) {
             System.out.println("Chyba. Nelze analyzovat soubor.");
         }
+    }
 
-
+    public void createEdge() {
 
     }
 

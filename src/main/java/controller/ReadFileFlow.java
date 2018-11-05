@@ -13,6 +13,7 @@ public class ReadFileFlow {
         try {
             Calc analyze = new Calc();
             analyze.readFile();
+
         } catch (Exception e) {
             System.out.println("Chyba nelze číst.");
         }
