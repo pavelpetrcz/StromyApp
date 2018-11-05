@@ -3,6 +3,7 @@ package controller;
 import model.Branch;
 import model.Leaf;
 import model.Nut;
+import sun.net.www.content.text.Generic;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -11,18 +12,20 @@ import java.util.ArrayList;
 
 public class Calc implements ICalc {
 
-    public void createLeaf(String input) {
+    public Leaf createLeaf(String input) {
         String[] parts = input.split(";");
         Leaf leaf = new Leaf();
         leaf.setId(Integer.parseInt(parts[0]));
         leaf.setColor(parts[2].charAt(0));
+        return leaf;
     }
 
-    public void createNut(String input) {
+    public Nut createNut(String input) {
         String[] parts = input.split(";");
         Nut nut = new Nut();
         nut.setId(Integer.parseInt(parts[0]));
         nut.setState(parts[2].charAt(0));
+        return nut;
     }
 
     public Branch createBranch(String input) {
@@ -36,7 +39,7 @@ public class Calc implements ICalc {
                 restOfParts.add(Integer.parseInt(parts[i]));
             }
         branch.setLinks(restOfParts);
-            
+
         return branch;
     }
 
@@ -67,7 +70,8 @@ public class Calc implements ICalc {
     }
 
     /*Načte dokument a podle procházení vytváří objekty*/
-    public void readFile() throws Exception {
+    public ArrayList<String> readFile() throws Exception {
+        ArrayList<String> nodes = null;
         try {
             //nactu dokument
             FileReader doc = new FileReader("C:/Users/Pavel/Desktop/strom.txt");
@@ -75,30 +79,17 @@ public class Calc implements ICalc {
             BufferedReader br = new BufferedReader(doc);
             String readLine = "";
 
-            //kolekce - co radek v souboru, to jedna polozka kolekce
-            ArrayList<String> nodes = new ArrayList<>();
-
             while ((readLine = br.readLine()) != null) {
                 //System.out.println(readLine);
                 nodes.add(readLine);
             }
-            //streamy na filtrovani podle typu uzlu a vytvoreni uzlu
-            nodes.stream()
-                    .filter(element -> element.matches("\\w;[L]."))
-                    .forEach(s -> createLeaf(s));
-            nodes.stream()
-                    .filter(element -> element.matches("\\w;[O]."))
-                    .forEach(a -> createNut(a));
-            nodes.stream()
-                .filter(element -> element.matches("\\w;[V]."))
-                .forEach(t -> createBranch(t));
-            }
-        catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("Chyba. Nelze analyzovat soubor.");
         }
+        return nodes;
     }
 
-    public void createEdge() {
+    public void createEdge(ArrayList<Object> nodes) {
 
     }
 

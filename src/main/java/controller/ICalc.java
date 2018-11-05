@@ -1,18 +1,22 @@
 package controller;
 
 import model.Branch;
+import model.Leaf;
+import model.Nut;
+
+import java.util.ArrayList;
 
 public interface ICalc {
 
     /*
     Vytvoří instance listů
      */
-    public void createLeaf(String input);
+    public Leaf createLeaf(String input);
 
     /*
     Vytvoří instance ořechů
      */
-    public void createNut(String input);
+    public Nut createNut(String input);
 
     /*
     Vytvoří instanci větví
@@ -32,11 +36,11 @@ public interface ICalc {
     /*
     Přečte soubor a vytvoří instance příslušných tříd
     */
-    public void readFile() throws Exception;
+    public ArrayList<String> readFile() throws Exception;
 
     /*
     Vytvori vazbu mezi objekt
      */
-    public void createEdge();
+    public void createEdge(ArrayList<Object> nodes);
 
 }
