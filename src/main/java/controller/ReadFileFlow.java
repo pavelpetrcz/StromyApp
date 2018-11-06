@@ -1,8 +1,12 @@
 package controller;
 
+import model.Node;
+
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collector;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 public class ReadFileFlow {
     public void starReadFile() {
@@ -12,31 +16,26 @@ public class ReadFileFlow {
             System.out.println("Chyba nelze číst.");
         }
     }
-
-    protected void readFile() throws Exception {
+    protected List<Node> readFile() throws Exception {
+        List<Node> nodes = null;
         try {
-
             Calc analyze = new Calc();
-            List<Object> list = new ArrayList<>();
 
-            () -> analyze.readFile().stream()
+            nodes = analyze.readFile().stream()
                     .filter(element -> element.matches("\\w;[L]."))
-                    .forEach(s -> analyze.createLeaf(s)).(s -> list.add(s);
+                    .map(s -> analyze.createLeaf(s)).collect(Collectors.toList());
 
-            analyze.readFile().stream()
+            nodes = analyze.readFile().stream()
                     .filter(element -> element.matches("\\w;[O]."))
-                    .forEach(a -> analyze.createNut(a));
+                    .map(a -> analyze.createNut(a)).collect(Collectors.toList());
 
-            analyze.readFile().stream()
+            nodes = analyze.readFile().stream()
                     .filter(element -> element.matches("\\w;[V]."))
-                    .forEach(t -> analyze.createBranch(t));
-
+                    .map(t -> analyze.createBranch(t)).collect(Collectors.toList());
         } catch (Exception e) {
             System.out.println("Chyba nelze číst.");
         }
-
-
-
+        return nodes;
     }
 
 }

@@ -1,11 +1,11 @@
-package view;
+package controller;
 
 import controller.ReadFileFlow;
 import controller.CheckInputsFlow;
 
 import java.util.Scanner;
 
-public class startApp {
+public class StartApp {
     public static void main(String[] args) throws Exception {
         //start appky
 
@@ -24,7 +24,7 @@ public class startApp {
         Scanner input = new Scanner(System.in, "Windows-1250");
         String inputString = input.nextLine();
         CheckInputsFlow startApp = new CheckInputsFlow();
-        startApp.setInput(inputString);
+        //startApp.setInput(inputString);
 
         //kontrola pokynu a přítomnosti souboru
         String uspech = "Soubor v pořádku. Pro start analýzy zadejte pokyn \"pocitej\".";

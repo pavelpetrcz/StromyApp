@@ -39,7 +39,6 @@ public class Calc implements ICalc {
                 restOfParts.add(Integer.parseInt(parts[i]));
             }
         branch.setLinks(restOfParts);
-
         return branch;
     }
 
