@@ -34,7 +34,7 @@ public class CalculationFlow {
 
 
         catch (Exception e) {
-            System.out.println("Chyba nelze číst.");
+            System.out.println("Chyba nelze načíst listy.");
         }
         return listLeafs;
     }
@@ -50,7 +50,7 @@ public class CalculationFlow {
                             .map(analyze::createNut).collect(Collectors.toList());
             }
         catch (Exception e) {
-            System.out.println("Chyba nelze číst.");
+            System.out.println("Chyba nelze načíst orechy.");
         }
         return listNuts;
     }
@@ -59,13 +59,12 @@ public class CalculationFlow {
         List<Branch> listBranch = null;
         try {
             Calc analyze = new Calc();
-
-                    listBranch = analyze.readFile().stream()
+                listBranch = analyze.readFile().stream()
                             .filter(element -> element.matches("\\d;V[;\\d]*"))
                             .map(analyze::createBranch).collect(Collectors.toList());
                     }
         catch (Exception e) {
-              System.out.println("Chyba nelze číst.");
+              System.out.println("Chyba nelze načíst větve.");
         }
 
         return listBranch;

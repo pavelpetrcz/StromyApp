@@ -18,6 +18,8 @@ public class StartApp {
             Calc calculation = new Calc();
 
             //nacteni souboru a vypocty
+            listOfNodes.starReadFileAndCreateBranches();
+
             int LZ = calculation.countLeafs(listOfNodes.starReadFileAndCreateLeafs(), 'Z');
             int LH = calculation.countLeafs(listOfNodes.starReadFileAndCreateLeafs(), 'H');
 

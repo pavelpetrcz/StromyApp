@@ -35,9 +35,13 @@ public class Calc implements ICalc {
         branch.setId(Integer.parseInt(parts[0])); //urcim ID
 
         //ulozim id ostatnich nodu
-        ArrayList<Integer> restOfParts = new ArrayList<>();
+        ArrayList<Integer> restOfParts = new ArrayList<Integer>();
             for (int i = 2; i <= parts.length; i++) {
-                restOfParts.add(Integer.parseInt(parts[i]));
+                int value = Integer.parseInt(parts[i]);
+                restOfParts.add(value);
+                //System.out.println(value);
+                //restOfParts.add(i, Integer.parseInt(parts[i]));
+
             }
         branch.setLinks(restOfParts);
         return branch;
