@@ -3,14 +3,15 @@ package controller;
 import model.Branch;
 import model.Leaf;
 import model.Nut;
-import sun.net.www.content.text.Generic;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Calc implements ICalc {
+
 
     public Leaf createLeaf(String input) {
         String[] parts = input.split(";");
@@ -35,7 +36,7 @@ public class Calc implements ICalc {
 
         //ulozim id ostatnich nodu
         ArrayList<Integer> restOfParts = new ArrayList<>();
-            for (int i = 1; i <= parts.length; i++) {
+            for (int i = 2; i <= parts.length; i++) {
                 restOfParts.add(Integer.parseInt(parts[i]));
             }
         branch.setLinks(restOfParts);
@@ -44,11 +45,12 @@ public class Calc implements ICalc {
 
     public boolean checkInput(String input) {
         boolean a = false;
+        String s;
         try {
-            String s = input.trim().toLowerCase();
-                if (s.equals("analyzuj")) {
-                a = true;
-                }
+            s = input.trim().toLowerCase();
+              if ("start" .equals(s)) {
+                  a = true;
+                    }
             }
         catch (Exception e) {
             System.out.println("Chyba.");
@@ -61,35 +63,60 @@ public class Calc implements ICalc {
         boolean result = false;
         try {
             File file = new File("C:/Users/Pavel/Desktop/strom.txt");
-            return result = file.exists();
+            return file.exists();
         } catch (Exception e) {
             System.out.println("Soubor není na místě.");
         }
         return result;
     }
 
-    /*Načte dokument a podle procházení vytváří objekty*/
-    public ArrayList<String> readFile() throws Exception {
-        ArrayList<String> nodes = null;
+    /*Načte dokument*/
+    public List<String> readFile() throws Exception {
+        List<String> nodes = null;
         try {
-            //nactu dokument
-            FileReader doc = new FileReader("C:/Users/Pavel/Desktop/strom.txt");
-            Object in = null;
-            BufferedReader br = new BufferedReader(doc);
-            String readLine = "";
-
-            while ((readLine = br.readLine()) != null) {
-                //System.out.println(readLine);
-                nodes.add(readLine);
-            }
-        } catch (Exception e) {
+            nodes = Files.readAllLines(Paths.get("C:/Users/Pavel/Desktop/strom.txt"));
+        }
+        catch (Exception e) {
             System.out.println("Chyba. Nelze analyzovat soubor.");
         }
         return nodes;
     }
 
+
     public void createEdge(ArrayList<Object> nodes) {
 
     }
+
+    public int countLeafs(List<Leaf> leafs, char colorParam) {
+        int i = 0;
+        int count = 0;
+
+            char color;
+            for (Leaf leaf : leafs) {
+                color = leafs.get(i).getColor();
+                if (color == colorParam) {
+                    count++;
+                }
+            }
+        return count;
+    }
+    /*
+    Spocte stav orechu
+     */
+    public int countNuts(List<Nut> nuts, char nutState) {
+        int i = 0;
+        int count = 0;
+        char state;
+            for (Nut nut : nuts) {
+                state = nuts.get(i).getState();
+                if (state == nutState) {
+                    count++;
+                }
+            }
+        return count;
+    }
+
+
+
 
 }

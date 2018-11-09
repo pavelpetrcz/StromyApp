@@ -1,8 +1,11 @@
 package model;
 
 public class Nut extends Node {
+    private char nutState; //stav orechu - Z = zraly, N = nezraly
 
-    /*Getter a Setter */
+    /*
+    Getters a Setters
+    */
     public char getState() {
         return nutState;
     }
@@ -11,7 +14,6 @@ public class Nut extends Node {
         this.nutState = state;
     }
 
-    /* Proměnné */
-    private char nutState; //stav orechu - Z = zraly, N = nezraly
+
 
 }

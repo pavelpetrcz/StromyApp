@@ -5,42 +5,52 @@ import model.Leaf;
 import model.Nut;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public interface ICalc {
 
     /*
     Vytvoří instance listů
      */
-    public Leaf createLeaf(String input);
+    Leaf createLeaf(String input);
 
     /*
     Vytvoří instance ořechů
      */
-    public Nut createNut(String input);
+    Nut createNut(String input);
 
     /*
     Vytvoří instanci větví
      */
-    public Branch createBranch(String input);
+    Branch createBranch(String input);
 
     /*
     Zkontroluje pokyn
      */
-    public boolean checkInput(String input) throws Exception;
+    boolean checkInput(String input) throws Exception;
 
     /*
     Zkontroluje jestli existuje soubor na ploše, který očekáváme a máme zpracovat
      */
-    public boolean checkInputFileExists() throws Exception;
+    boolean checkInputFileExists() throws Exception;
 
     /*
     Přečte soubor a vytvoří instance příslušných tříd
     */
-    public ArrayList<String> readFile() throws Exception;
+    List<String> readFile() throws Exception;
 
     /*
     Vytvori vazbu mezi objekt
      */
-    public void createEdge(ArrayList<Object> nodes);
+    void createEdge(ArrayList<Object> nodes);
 
+    /*
+    Spočte listy
+     */
+    int countLeafs(List<Leaf> nodes, char colorParam) throws Exception;
+
+    /*
+    Spocte orechy
+     */
+    int countNuts(List<Nut> nodes, char nutState);
 }

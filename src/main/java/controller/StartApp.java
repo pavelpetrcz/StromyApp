@@ -1,44 +1,41 @@
 package controller;
 
-import controller.ReadFileFlow;
-import controller.CheckInputsFlow;
-
 import java.util.Scanner;
 
 public class StartApp {
     public static void main(String[] args) throws Exception {
         //start appky
 
-        System.out.println("\n" +
-                "\n" +
-                "   _____   __                                         ___                   \n" +
-                "  / ___/  / /_   _____  ____    ____ ___    __  __   /   |    ____     ____ \n" +
-                "  \\__ \\  / __/  / ___/ / __ \\  / __ `__ \\  / / / /  / /| |   / __ \\   / __ \\\n" +
-                " ___/ / / /_   / /    / /_/ / / / / / / / / /_/ /  / ___ |  / /_/ /  / /_/ /\n" +
-                "/____/  \\__/  /_/     \\____/ /_/ /_/ /_/  \\__, /  /_/  |_| / .___/  / .___/ \n" +
-                "                                         /____/           /_/      /_/      \n" +
-                "                                                                            \n" +
-                "\n");
-
-        System.out.println("Nahrajte soubor se stromem na Plochu vašeho PC s názvem strom.txt - kontrolu souboru  spustíte pokynem \"analyzuj\".");
+        System.out.println("Nahrajte soubor se stromem na Plochu vašeho PC s názvem strom.txt - kontrolu souboru  spustíte pokynem \"start\".");
         Scanner input = new Scanner(System.in, "Windows-1250");
         String inputString = input.nextLine();
         CheckInputsFlow startApp = new CheckInputsFlow();
-        //startApp.setInput(inputString);
 
-        //kontrola pokynu a přítomnosti souboru
-        String uspech = "Soubor v pořádku. Pro start analýzy zadejte pokyn \"pocitej\".";
         String chyba = "Špatný příkaz nebo chybí zdrojový soubor na ploše.";
+        //kontrola vstupu
         if (startApp.getCheckInputs(inputString)) {
-            System.out.println(uspech);
+            CalculationFlow listOfNodes = new CalculationFlow();
+            Calc calculation = new Calc();
+
+            //nacteni souboru a vypocty
+            int LZ = calculation.countLeafs(listOfNodes.starReadFileAndCreateLeafs(), 'Z');
+            int LH = calculation.countLeafs(listOfNodes.starReadFileAndCreateLeafs(), 'H');
+
+            int OZ = calculation.countNuts(listOfNodes.starReadFileAndCreateNuts(), 'Z');
+            int ON = calculation.countNuts(listOfNodes.starReadFileAndCreateNuts(), 'N');
+
+                    //vypis pro listy
+                    System.out.println("L;Z;" + LZ);
+                    System.out.println("L;H;" + LH);
+
+                    //vypis pro orechy
+                    System.out.println("O;Z;" + OZ);
+                    System.out.println("O;N;" + ON);
+
+
+
         }
-        else System.out.println(chyba);
-
-        //čtení souboru
-        ReadFileFlow document = new ReadFileFlow();
-        document.starReadFile();
-
-
+            else System.out.println(chyba);
 
     }
 }
