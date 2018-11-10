@@ -1,16 +1,16 @@
 package model;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class Branch extends Node {
-    private ArrayList<Integer> links; //id ostatnich vetvi
+    private List<Integer> links; //id ostatnich vetvi
 
 
-    public ArrayList<Integer> getLinks() {
+    public List<Integer> getLinks() {
         return links;
     }
 
-    public void setLinks(ArrayList<Integer> links) {
+    public void setLinks(List<Integer> links) {
         this.links = links;
     }
 }

@@ -2,9 +2,9 @@ package controller;
 
 import model.Branch;
 import model.Leaf;
+import model.Node;
 import model.Nut;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public interface ICalc {
@@ -32,7 +32,7 @@ public interface ICalc {
     /*
     Zkontroluje jestli existuje soubor na ploše, který očekáváme a máme zpracovat
      */
-    boolean checkInputFileExists() throws Exception;
+    boolean checkInputFileExists(String path) throws Exception;
 
     /*
     Přečte soubor a vytvoří instance příslušných tříd
@@ -42,7 +42,7 @@ public interface ICalc {
     /*
     Vytvori vazbu mezi objekt
      */
-    void createEdge(ArrayList<Object> nodes);
+    boolean checkConnection(List<Branch> branches, List<Integer> ids);
 
     /*
     Spočte listy
@@ -53,4 +53,8 @@ public interface ICalc {
     Spocte orechy
      */
     int countNuts(List<Nut> nodes, char nutState);
+
+    List<Integer> readIds() throws Exception;
+
+
 }

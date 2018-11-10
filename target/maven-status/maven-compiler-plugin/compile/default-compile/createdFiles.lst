@@ -1,0 +1,10 @@
+model\Nut.class
+controller\CheckInputsFlow.class
+controller\ICalc.class
+model\Edge.class
+controller\Calc.class
+model\Branch.class
+controller\CalculationFlow.class
+controller\StartApp.class
+model\Leaf.class
+model\Node.class

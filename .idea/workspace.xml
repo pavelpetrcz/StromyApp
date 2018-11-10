@@ -6,13 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="8659b13a-8628-4fae-bec1-a70d6294d272" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Calc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ICalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ICalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/StartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/StartApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Branch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/Calc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Calc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/ReadFileFlow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/CalculationFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/CalculationFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ICalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ICalc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/StartApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/StartApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Branch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Branch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,42 +38,46 @@
     <session id="1924606256">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
-          <entry key="project.open.time.0" value="20" />
+          <entry key="project.closed" value="33" />
+          <entry key="project.open.time.0" value="21" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="69" />
-          <entry key="java" value="11300" />
-          <entry key="regexp" value="21" />
-          <entry key="xml" value="3" />
+          <entry key="java" value="14350" />
+          <entry key="regexp" value="26" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11297" />
+          <entry key="JAVA" value="14346" />
           <entry key="PLAIN_TEXT" value="69" />
-          <entry key="RegExp" value="24" />
-          <entry key="XML" value="3" />
+          <entry key="RegExp" value="30" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="71" />
+          <entry key="java" value="94" />
           <entry key="properties" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="71" />
+          <entry key="JAVA" value="94" />
           <entry key="Properties" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -73,69 +86,101 @@
     <favorites_list name="StromyApp" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Calc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1028#1037#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ICalc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Branch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-              <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartApp.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="162">
+                  <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="546">
+                  <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/controller/Calc.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="142">
+                  <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/controller/ICalc.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="78">
+                  <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="157">
+                  <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="67" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/controller/CalcTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-185">
+                  <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>createBra</find>
+      <find>createBr</find>
+      <find>Edge</find>
+      <find>ids</find>
+      <find>checkC</find>
+      <find>read</find>
+      <find>checkInputFileExists</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/iCalc.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Calcutions.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/IUzel.java" />
@@ -170,19 +214,21 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/AnalyzeFileFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/startApp.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Edge.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/CalculateResultFlow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/calculationFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Leaf.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/ICalc.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Nut.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ReadFileFlow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/StartApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Calc.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Branch.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Edge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ICalc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/StartApp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controller/CalcTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Calc.java" />
       </list>
     </option>
   </component>
@@ -200,13 +246,18 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="StromyApp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="StromyApp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1549" />
+    <option name="x" value="-10" />
+    <option name="width" value="1550" />
     <option name="height" value="830" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -239,65 +290,27 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="StromyApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StromyApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StromyApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StromyApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StromyApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StromyApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StromyApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StromyApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StromyApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StromyApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StromyApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StromyApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541772416775" />
-    <property name="last.edited.regexp" value="1;V;" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541890301280" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last.edited.regexp" value="1;H;L" />
     <property name="last_opened_file_path" value="K:/IJ_git" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.23661071" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -311,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CalcTest.checkInputFileExists">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -327,6 +340,91 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcTest.checkInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StromyApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.CalcTest" />
+      <option name="METHOD_NAME" value="checkInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcTest.checkInputFileExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StromyApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.CalcTest" />
+      <option name="METHOD_NAME" value="checkInputFileExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcTest.createBranch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StromyApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.CalcTest" />
+      <option name="METHOD_NAME" value="createBranch" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcTest.createLeaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StromyApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.CalcTest" />
+      <option name="METHOD_NAME" value="createLeaf" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcTest.createNut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StromyApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.CalcTest" />
+      <option name="METHOD_NAME" value="createNut" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -354,6 +452,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.CalcTest.createLeaf" />
+      <item itemvalue="JUnit.CalcTest.createNut" />
+      <item itemvalue="JUnit.CalcTest.createBranch" />
+      <item itemvalue="JUnit.CalcTest.checkInput" />
+      <item itemvalue="JUnit.CalcTest.checkInputFileExists" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalcTest.checkInputFileExists" />
+        <item itemvalue="JUnit.CalcTest.checkInput" />
+        <item itemvalue="JUnit.CalcTest.createBranch" />
+        <item itemvalue="JUnit.CalcTest.createNut" />
+        <item itemvalue="JUnit.CalcTest.createLeaf" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -374,6 +489,38 @@
       </GitHub>
     </servers>
   </component>
+  <component name="TestHistory">
+    <history-entry file="CalcTest_createLeaf - 2018.11.09 at 15h 51m 52s.xml">
+      <configuration name="CalcTest.createLeaf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest_createNut - 2018.11.09 at 15h 52m 21s.xml">
+      <configuration name="CalcTest.createNut" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest_createBranch - 2018.11.09 at 15h 53m 03s.xml">
+      <configuration name="CalcTest.createBranch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest_createBranch - 2018.11.09 at 15h 55m 20s.xml">
+      <configuration name="CalcTest.createBranch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest_createBranch - 2018.11.09 at 15h 55m 35s.xml">
+      <configuration name="CalcTest.createBranch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest_createBranch - 2018.11.09 at 15h 56m 29s.xml">
+      <configuration name="CalcTest.createBranch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest_createBranch - 2018.11.09 at 15h 58m 10s.xml">
+      <configuration name="CalcTest.createBranch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest_createBranch - 2018.11.09 at 15h 58m 20s.xml">
+      <configuration name="CalcTest.createBranch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest_checkInput - 2018.11.10 at 22h 36m 12s.xml">
+      <configuration name="CalcTest.checkInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalcTest_checkInputFileExists - 2018.11.10 at 23h 31m 58s.xml">
+      <configuration name="CalcTest.checkInputFileExists" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -387,7 +534,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969231" visible="true" weight="0.23513514" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969231" weight="0.30405405" />
       <window_info id="Structure" order="1" sideWeight="0.5015528" side_tool="true" weight="0.18606225" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -395,9 +542,38 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5030769" side_tool="true" weight="0.24527027" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.36416185" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932432" visible="true" weight="0.41230768" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.57076925" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.39384615" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.65692306" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3276923" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49932432" weight="0.3276923" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006757" side_tool="true" weight="0.67230767" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32923076" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49932432" weight="0.37538463" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49932432" visible="true" weight="0.24153847" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32972974" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Ant Build" order="7" type="SLIDING" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.2722973" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969231" weight="0.30405405" />
+      <window_info id="Structure" order="1" sideWeight="0.5015528" side_tool="true" weight="0.18606225" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5030769" side_tool="true" weight="0.24527027" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.06615385" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932432" visible="true" weight="0.27076924" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2276923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3276923" />
@@ -413,8 +589,8 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.16081081" />
-    </layout>
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.19864865" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -450,6 +626,22 @@
       <path value="$PROJECT_DIR$/StromyAppka" />
     </ignored-roots>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/Calc.java</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
@@ -472,13 +664,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Calcutions.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/iCalc.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/IUzel.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/FlowStartAnalyze.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/IFlow.java" />
@@ -486,13 +671,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/model/IList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/IOrech.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/IVetev.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -515,32 +693,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/CalculateResultFlow.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -562,17 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-          <folding>
-            <element signature="e#6077#6078#0" expanded="true" />
-            <element signature="e#6159#6160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -584,9 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,12 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,12 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,62 +746,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="577" selection-start-line="577" selection-end-line="577" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Branch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="982" selection-start-line="982" selection-end-line="982" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ICalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ICalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+        <state relative-caret-position="162">
+          <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/controller/CalcTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-185">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/Calc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="142">
+          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1028#1037#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Branch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
           </folding>
         </state>
       </provider>
