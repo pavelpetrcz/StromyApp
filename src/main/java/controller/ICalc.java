@@ -37,7 +37,7 @@ public interface ICalc {
     /*
     Přečte soubor a vytvoří instance příslušných tříd
     */
-    List<String> readFile() throws Exception;
+    List<String> readFile(String path) throws Exception;
 
     /*
     Vytvori vazbu mezi objekt
@@ -54,7 +54,7 @@ public interface ICalc {
      */
     int countNuts(List<Nut> nodes, char nutState);
 
-    List<Integer> readIds() throws Exception;
+    List<Integer> readIds(String path) throws Exception;
 
 
 }

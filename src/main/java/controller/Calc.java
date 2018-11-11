@@ -81,10 +81,10 @@ public class Calc implements ICalc {
      * @return radky nactene ze souboru
      * @throws Exception
      */
-    public List<String> readFile() throws Exception {
+    public List<String> readFile(String path) throws Exception {
         List<String> nodes = null;
         try {
-            nodes = Files.readAllLines(Paths.get("C:/Users/Pavel/Desktop/strom.txt"));
+            nodes = Files.readAllLines(Paths.get(path));
         }
         catch (Exception e) {
             System.out.println("Chyba. Nelze analyzovat soubor.");
@@ -112,6 +112,12 @@ public class Calc implements ICalc {
         return statement;
     }
 
+    /**
+     * Spocte pocet listu urcite barvy
+     * @param leafs - list objektů reprezentujici listy
+     * @param colorParam - barva listu
+     * @return
+     */
     public int countLeafs(List<Leaf> leafs, char colorParam) {
         int i = 0;
         int count = 0;
@@ -125,8 +131,12 @@ public class Calc implements ICalc {
             }
         return count;
     }
-    /*
-    Spocte stav orechu
+
+    /**
+     * Spocte pocet orechu v urcitem stavu
+     * @param nuts - list objektu reprezentujici orechy
+     * @param nutState - stav orechu
+     * @return
      */
     public int countNuts(List<Nut> nuts, char nutState) {
         int i = 0;
@@ -141,19 +151,18 @@ public class Calc implements ICalc {
         return count;
     }
 
-    public List<Integer> readIds() throws Exception {
+    public List<Integer> readIds(String path) throws Exception {
         List<Integer> ids = new ArrayList<>();
         List<String> listInput; //seznam načtených řádků
         Calc node = new Calc(); //konstruktor
 
         try {
-            listInput = node.readFile();
+            listInput = node.readFile(path);
             for (String item : listInput) {
                 String[] helper = listInput.get(listInput.indexOf(item)).split(";");
                 if (helper[0].matches("\\d")) {
                     ids.add(Integer.parseInt(helper[0]));
                 }
-
             }
         } catch (Exception e) {
             System.out.println("Nejde načíst seznam IDs.");

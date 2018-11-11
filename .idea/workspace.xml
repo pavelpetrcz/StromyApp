@@ -6,22 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8659b13a-8628-4fae-bec1-a70d6294d272" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Calc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/ICalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ICalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/StartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/StartApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Branch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/CalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controller/CalcTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/Calc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Calc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/CalculationFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/CalculationFlow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/ICalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ICalc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/StartApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/StartApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Branch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Branch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/controller/CalcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/controller/CalcTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,14 +47,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="69" />
-          <entry key="java" value="14350" />
+          <entry key="java" value="15178" />
           <entry key="regexp" value="26" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14346" />
+          <entry key="JAVA" value="15174" />
           <entry key="PLAIN_TEXT" value="69" />
           <entry key="RegExp" value="30" />
           <entry key="XML" value="10" />
@@ -86,14 +80,14 @@
     <favorites_list name="StromyApp" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.49864864">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartApp.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+                <state relative-caret-position="-93">
+                  <caret line="25" column="139" selection-start-line="25" selection-start-column="139" selection-end-line="25" selection-end-column="139" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -113,8 +107,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/controller/Calc.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="142">
-                  <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+                <state relative-caret-position="150">
+                  <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -125,8 +119,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/controller/ICalc.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="78">
-                  <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+                <state relative-caret-position="177">
+                  <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -137,8 +131,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="157">
-                  <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="67" />
+                <state relative-caret-position="186">
+                  <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -153,8 +147,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/controller/CalcTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-185">
-                  <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+                <state relative-caret-position="288">
+                  <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -223,12 +217,12 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Branch.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/Edge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ICalc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/StartApp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/controller/CalcTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Calc.java" />
+        <option value="$PROJECT_DIR$/src/test/java/controller/CalcTest.java" />
       </list>
     </option>
   </component>
@@ -293,7 +287,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541890301280" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541937112240" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last.edited.regexp" value="1;H;L" />
@@ -324,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalcTest.checkInputFileExists">
+  <component name="RunManager" selected="JUnit.CalcTest.readIds">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -344,7 +338,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTest.checkInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StromyApp" />
       <extension name="coverage">
         <pattern>
@@ -354,8 +348,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="controller" />
       <option name="MAIN_CLASS_NAME" value="controller.CalcTest" />
-      <option name="METHOD_NAME" value="checkInput" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -378,7 +370,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTest.createBranch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalcTest.countLeafs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StromyApp" />
       <extension name="coverage">
         <pattern>
@@ -388,14 +380,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="controller" />
       <option name="MAIN_CLASS_NAME" value="controller.CalcTest" />
-      <option name="METHOD_NAME" value="createBranch" />
+      <option name="METHOD_NAME" value="countLeafs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTest.createLeaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalcTest.countNuts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StromyApp" />
       <extension name="coverage">
         <pattern>
@@ -405,14 +397,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="controller" />
       <option name="MAIN_CLASS_NAME" value="controller.CalcTest" />
-      <option name="METHOD_NAME" value="createLeaf" />
+      <option name="METHOD_NAME" value="countNuts" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTest.createNut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalcTest.readIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StromyApp" />
       <extension name="coverage">
         <pattern>
@@ -422,7 +414,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="controller" />
       <option name="MAIN_CLASS_NAME" value="controller.CalcTest" />
-      <option name="METHOD_NAME" value="createNut" />
+      <option name="METHOD_NAME" value="readIds" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -454,19 +446,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.CalcTest.createLeaf" />
-      <item itemvalue="JUnit.CalcTest.createNut" />
-      <item itemvalue="JUnit.CalcTest.createBranch" />
-      <item itemvalue="JUnit.CalcTest.checkInput" />
       <item itemvalue="JUnit.CalcTest.checkInputFileExists" />
+      <item itemvalue="JUnit.CalcTest" />
+      <item itemvalue="JUnit.CalcTest.countLeafs" />
+      <item itemvalue="JUnit.CalcTest.countNuts" />
+      <item itemvalue="JUnit.CalcTest.readIds" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalcTest.readIds" />
+        <item itemvalue="JUnit.CalcTest.countNuts" />
+        <item itemvalue="JUnit.CalcTest.countLeafs" />
+        <item itemvalue="JUnit.CalcTest" />
         <item itemvalue="JUnit.CalcTest.checkInputFileExists" />
-        <item itemvalue="JUnit.CalcTest.checkInput" />
-        <item itemvalue="JUnit.CalcTest.createBranch" />
-        <item itemvalue="JUnit.CalcTest.createNut" />
-        <item itemvalue="JUnit.CalcTest.createLeaf" />
       </list>
     </recent_temporary>
   </component>
@@ -490,35 +482,35 @@
     </servers>
   </component>
   <component name="TestHistory">
-    <history-entry file="CalcTest_createLeaf - 2018.11.09 at 15h 51m 52s.xml">
-      <configuration name="CalcTest.createLeaf" configurationId="JUnit" />
+    <history-entry file="CalcTest - 2018.11.11 at 08h 12m 54s.xml">
+      <configuration name="CalcTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest_createNut - 2018.11.09 at 15h 52m 21s.xml">
-      <configuration name="CalcTest.createNut" configurationId="JUnit" />
+    <history-entry file="CalcTest_countLeafs - 2018.11.11 at 09h 30m 03s.xml">
+      <configuration name="CalcTest.countLeafs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest_createBranch - 2018.11.09 at 15h 53m 03s.xml">
-      <configuration name="CalcTest.createBranch" configurationId="JUnit" />
+    <history-entry file="CalcTest_countNuts - 2018.11.11 at 09h 33m 32s.xml">
+      <configuration name="CalcTest.countNuts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest_createBranch - 2018.11.09 at 15h 55m 20s.xml">
-      <configuration name="CalcTest.createBranch" configurationId="JUnit" />
+    <history-entry file="CalcTest_readIds - 2018.11.11 at 12h 39m 25s.xml">
+      <configuration name="CalcTest.readIds" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest_createBranch - 2018.11.09 at 15h 55m 35s.xml">
-      <configuration name="CalcTest.createBranch" configurationId="JUnit" />
+    <history-entry file="CalcTest_readIds - 2018.11.11 at 12h 43m 01s.xml">
+      <configuration name="CalcTest.readIds" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest_createBranch - 2018.11.09 at 15h 56m 29s.xml">
-      <configuration name="CalcTest.createBranch" configurationId="JUnit" />
+    <history-entry file="CalcTest_readIds - 2018.11.11 at 12h 43m 24s.xml">
+      <configuration name="CalcTest.readIds" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest_createBranch - 2018.11.09 at 15h 58m 10s.xml">
-      <configuration name="CalcTest.createBranch" configurationId="JUnit" />
+    <history-entry file="CalcTest_readIds - 2018.11.11 at 12h 43m 56s.xml">
+      <configuration name="CalcTest.readIds" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest_createBranch - 2018.11.09 at 15h 58m 20s.xml">
-      <configuration name="CalcTest.createBranch" configurationId="JUnit" />
+    <history-entry file="CalcTest_readIds - 2018.11.11 at 12h 44m 32s.xml">
+      <configuration name="CalcTest.readIds" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest_checkInput - 2018.11.10 at 22h 36m 12s.xml">
-      <configuration name="CalcTest.checkInput" configurationId="JUnit" />
+    <history-entry file="CalcTest_readIds - 2018.11.11 at 12h 45m 38s.xml">
+      <configuration name="CalcTest.readIds" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalcTest_checkInputFileExists - 2018.11.10 at 23h 31m 58s.xml">
-      <configuration name="CalcTest.checkInputFileExists" configurationId="JUnit" />
+    <history-entry file="CalcTest_readIds - 2018.11.11 at 12h 47m 12s.xml">
+      <configuration name="CalcTest.readIds" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
@@ -542,8 +534,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5030769" side_tool="true" weight="0.24527027" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.39384615" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.65692306" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.08923077" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.38923076" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3276923" />
@@ -551,7 +543,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006757" side_tool="true" weight="0.67230767" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32923076" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49932432" weight="0.37538463" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49932432" visible="true" weight="0.24153847" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49932432" visible="true" weight="0.37384614" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32972974" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -625,18 +617,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/StromyAppka" />
     </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/Calc.java</url>
-          <line>158</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -792,16 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ICalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/CheckInputsFlow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -811,8 +781,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/CalculationFlow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="67" />
+        <state relative-caret-position="186">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ICalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -821,8 +801,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+        <state relative-caret-position="-93">
+          <caret line="25" column="139" selection-start-line="25" selection-start-column="139" selection-end-line="25" selection-end-column="139" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Calc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -831,18 +821,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/controller/CalcTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Calc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
         </state>
       </provider>
     </entry>

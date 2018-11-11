@@ -23,17 +23,17 @@ public class StartApp {
             //nacteni souboru a vypocty
             boolean connection; //výsledek kontroly spojistosti
             String textConnection; //textová reprezentace výsledku spojitosti
-            connection = (calculation.checkConnection(listOfNodes.starReadFileAndCreateBranches(), calculation.readIds()));
+            connection = (calculation.checkConnection(listOfNodes.starReadFileAndCreateBranches(pathToFile), calculation.readIds(pathToFile)));
             System.out.println("Výsledek:");
             textConnection = connection ? "S:ANO" : "S:NE";
             System.out.println(textConnection);
 
             if (connection) {
-                int LZ = calculation.countLeafs(listOfNodes.starReadFileAndCreateLeafs(), 'Z');
-                int LH = calculation.countLeafs(listOfNodes.starReadFileAndCreateLeafs(), 'H');
+                int LZ = calculation.countLeafs(listOfNodes.starReadFileAndCreateLeafs(pathToFile), 'Z');
+                int LH = calculation.countLeafs(listOfNodes.starReadFileAndCreateLeafs(pathToFile), 'H');
 
-                int OZ = calculation.countNuts(listOfNodes.starReadFileAndCreateNuts(), 'Z');
-                int ON = calculation.countNuts(listOfNodes.starReadFileAndCreateNuts(), 'N');
+                int OZ = calculation.countNuts(listOfNodes.starReadFileAndCreateNuts(pathToFile), 'Z');
+                int ON = calculation.countNuts(listOfNodes.starReadFileAndCreateNuts(pathToFile), 'N');
 
                 //vypis pro listy
                 System.out.println("L;Z;" + LZ);

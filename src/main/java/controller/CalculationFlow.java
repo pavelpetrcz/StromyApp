@@ -10,24 +10,24 @@ import java.util.stream.Collectors;
 
 public class CalculationFlow {
 
-    public List<Leaf> starReadFileAndCreateLeafs() throws Exception {
-        return readFileCreateLeafs();
+    public List<Leaf> starReadFileAndCreateLeafs(String path) throws Exception {
+        return readFileCreateLeafs(path);
     }
 
-    public List<Branch> starReadFileAndCreateBranches() throws Exception {
-        return readFileCreateBranch();
+    public List<Branch> starReadFileAndCreateBranches(String path) throws Exception {
+        return readFileCreateBranch(path);
     }
 
-    public List<Nut> starReadFileAndCreateNuts() throws Exception {
-        return readFileCreateNuts();
+    public List<Nut> starReadFileAndCreateNuts(String path) throws Exception {
+        return readFileCreateNuts(path);
     }
 
-    private List<Leaf> readFileCreateLeafs() throws Exception {
+    private List<Leaf> readFileCreateLeafs(String path) throws Exception {
         List<Leaf> listLeafs = null;
         try {
             Calc analyze = new Calc();
 
-                    listLeafs = analyze.readFile().stream()
+                    listLeafs = analyze.readFile(path).stream()
                             .filter(element -> element.matches("\\d;L;\\w"))
                             .map(analyze::createLeaf).collect(Collectors.toList());
 
@@ -40,13 +40,13 @@ public class CalculationFlow {
         return listLeafs;
     }
 
-    private List<Nut> readFileCreateNuts() throws Exception {
+    private List<Nut> readFileCreateNuts(String path) throws Exception {
         List<Nut> listNuts = null;
 
 
         try {
             Calc analyze = new Calc();
-                    listNuts = analyze.readFile().stream()
+                    listNuts = analyze.readFile(path).stream()
                             .filter(element -> element.matches("\\d;O;\\w"))
                             .map(analyze::createNut).collect(Collectors.toList());
             }
@@ -56,11 +56,11 @@ public class CalculationFlow {
         return listNuts;
     }
 
-    private List<Branch> readFileCreateBranch() throws Exception {
+    private List<Branch> readFileCreateBranch(String path) throws Exception {
         List<Branch> listBranch = null;
         try {
             Calc analyze = new Calc();
-                listBranch = analyze.readFile().stream()
+                listBranch = analyze.readFile(path).stream()
                             .filter(element -> element.matches("\\d;V[;\\d]*"))
                             .map(analyze::createBranch).collect(Collectors.toList());
                     }
