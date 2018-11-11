@@ -7,7 +7,8 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class CalcTest {
 
@@ -86,7 +87,8 @@ public class CalcTest {
 
         Calc test = new Calc();
 
-        //assertSame(testIds, test.readIds("D:/StromyApp/src/test/java/calcTestReadIDs.txt"));
+        //Assert.assertThat(testIds, IsIterableContainingInOrder.contains(test.readIds("D:/StromyApp/src/test/java/calcTestReadIDs.txt"))))
+
 
 
 
