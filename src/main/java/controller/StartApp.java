@@ -23,7 +23,7 @@ public class StartApp {
             //nacteni souboru a vypocty
             boolean connection; //výsledek kontroly spojistosti
             String textConnection; //textová reprezentace výsledku spojitosti
-            connection = (calculation.checkConnection(listOfNodes.starReadFileAndCreateBranches(pathToFile), calculation.readIds(pathToFile)));
+            connection = (calculation.checkConnection(listOfNodes.starReadFileAndCreateBranches(pathToFile), calculation.readIds(pathToFile )));
             System.out.println("Výsledek:");
             textConnection = connection ? "S:ANO" : "S:NE";
             System.out.println(textConnection);
