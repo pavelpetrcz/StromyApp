@@ -128,6 +128,7 @@ public class Calc implements ICalc {
                 if (color == colorParam) {
                     count++;
                 }
+                i++;
             }
         return count;
     }
@@ -147,6 +148,7 @@ public class Calc implements ICalc {
                 if (state == nutState) {
                     count++;
                 }
+                i++;
             }
         return count;
     }

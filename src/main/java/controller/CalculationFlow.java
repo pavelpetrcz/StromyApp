@@ -28,7 +28,7 @@ public class CalculationFlow {
             Calc analyze = new Calc();
 
                     listLeafs = analyze.readFile(path).stream()
-                            .filter(element -> element.matches("\\d\\d;L;\\w"))
+                            .filter(element -> element.matches("\\d{1,3};L;\\w"))
                             .map(analyze::createLeaf).collect(Collectors.toList());
 
             }
@@ -47,7 +47,7 @@ public class CalculationFlow {
         try {
             Calc analyze = new Calc();
                     listNuts = analyze.readFile(path).stream()
-                            .filter(element -> element.matches("\\d\\d;O;\\w"))
+                            .filter(element -> element.matches("\\d{1,3};O;\\w"))
                             .map(analyze::createNut).collect(Collectors.toList());
             }
         catch (Exception e) {
@@ -61,7 +61,7 @@ public class CalculationFlow {
         try {
             Calc analyze = new Calc();
                 listBranch = analyze.readFile(path).stream()
-                            .filter(element -> element.matches("\\d;V[;\\d]*"))
+                            .filter(element -> element.matches("\\d{1,3};V[;\\d{1,3}]*"))
                             .map(analyze::createBranch).collect(Collectors.toList());
                     }
         catch (Exception e) {
